@@ -32,7 +32,7 @@ pipeline {
         // Note: ODATA/CTS does not support the mtaBuild tool.
         stage('attach') {
             steps {
-                transportRequestUploadCTS script: this)
+                transportRequestUploadCTS( script: this)
             }
         }
     }
