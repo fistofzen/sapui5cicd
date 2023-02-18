@@ -35,6 +35,7 @@ pipeline {
         stage('attach') {
             steps {
                 transportRequestUploadCTS( script: this)
+                echo "testing"
             }
         }
     }
