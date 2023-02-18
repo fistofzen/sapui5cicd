@@ -1,7 +1,7 @@
 steps:
   transportRequestUploadCTS:
     dockerImage: 'hdemirkale/fiori-node'
-
+    deployToolDependencies: []
     changeManagement:
       endpoint: 'http://gclp0353.devint.net.sap:8001/'
       credentialsId: 'CTS' # The ID under which the credentials are provided on Jenkins defaults to 'CM'
