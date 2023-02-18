@@ -8,3 +8,5 @@ steps:
     abapPackage: 'ZCICD'
     applicationName: 'ZSAPUI5CICD'
     applicationDescription: 'Your description'
+  transportRequestReqIDFromGit:
+    gitFrom: 'origin/main'
