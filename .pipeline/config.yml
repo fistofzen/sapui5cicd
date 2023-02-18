@@ -1,6 +1,6 @@
 steps:
   transportRequestUploadCTS:
-    dockerImage: 'hdemirkale/fiori-node'
+    #dockerImage: 'hdemirkale/fiori-node'
     deployToolDependencies: []
     changeManagement:
       endpoint: 'http://gclp0353.devint.net.sap:8001'
